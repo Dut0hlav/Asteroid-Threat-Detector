@@ -15,11 +15,11 @@ echo.
 echo Krok 2: Aktivuji bublinu a overuji potrebne knihovny...
 call venv\Scripts\activate
 python -m pip install --upgrade pip >nul
-pip install -r requirements.txt
+pip install -r docs\requirements.txt
 
 echo.
 echo Krok 3: Spoustim aplikaci...
-python UI\Aplikace.py
+python src\Aplikace.py
 
 echo.
 echo Aplikace byla ukoncena.
